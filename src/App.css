@@ -1,0 +1,20 @@
+.App {
+  padding-top: 15px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.App h1 {
+  font-size: 3em;
+  text-align: center;
+}
+.sub-heading {
+  margin: 0 auto;
+  width: 600px;
+}
+.App footer {
+  font-size: 1.2em;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
