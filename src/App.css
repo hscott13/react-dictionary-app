@@ -1,5 +1,6 @@
 .App {
-  padding-top: 15px;
+  padding: 15px 50px 0px;
+
   font-family: "Noto Sans JP", sans-serif;
 }
 .App h1 {
@@ -7,12 +8,12 @@
   text-align: center;
   font-weight: 400;
 }
-.App h2 {
+.sub-heading h2 {
   font-style: italic;
   font-size: 1em;
   opacity: 80%;
 }
-.App h3 {
+.sub-heading h3 {
   font-size: 0.8em;
   opacity: 50%;
 }
@@ -21,10 +22,7 @@
   width: 400px;
 }
 .App footer {
+  margin-top: 15px;
   font-size: 1em;
   text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }

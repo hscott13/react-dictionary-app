@@ -1,0 +1,16 @@
+ol {
+  list-style-type: upper-roman;
+}
+.type {
+  font-size: 1.25em;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+.definition {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0;
+}
+.example {
+  opacity: 75%;
+}

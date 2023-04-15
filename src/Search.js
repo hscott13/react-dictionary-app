@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Search.css";
+import Result from "./Result";
 
 export default function Search() {
   let [keyword, setKeyword] = useState("");
+  let [result, setResult] = useState(null);
 
   function handleResponse(response) {
     console.log(response.data[0]);
+    setResult(response.data[0]);
   }
   function search(event) {
     event.preventDefault();
@@ -33,6 +36,7 @@ export default function Search() {
           <i className="fa-solid fa-magnifying-glass"></i>
         </button>
       </form>
+      <Result results={result} />
     </div>
   );
 }
