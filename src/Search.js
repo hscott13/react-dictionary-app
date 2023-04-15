@@ -14,7 +14,7 @@ export default function Search() {
     <div className="Dictionary">
       <form className="d-flex justify-content-center" onSubmit={search}>
         <input
-          className="border border-0 bg-transparent fs-4 w-100"
+          className="border border-0 bg-transparent fs-5 w-100"
           type="search"
           autoFocus={false}
           onChange={updateKeyword}
@@ -22,7 +22,7 @@ export default function Search() {
         ></input>
         <button
           type="submit"
-          className="btn-primary border border-0 bg-transparent fs-4"
+          className="btn-primary border border-0 bg-transparent fs-5"
         >
           <i className="fa-solid fa-magnifying-glass"></i>
         </button>

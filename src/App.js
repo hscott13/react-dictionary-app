@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <h1>DICTIONARY</h1>
       <div className="sub-heading">
-        <h2 className="fst-italic fs-3">noun</h2>
-        <h3 className="fs-5">
+        <h2>noun</h2>
+        <h3>
           A resource that lists the words of a language and gives their meaning.
         </h3>
       </div>

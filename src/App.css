@@ -3,15 +3,25 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 .App h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
+  font-weight: 400;
+}
+.App h2 {
+  font-style: italic;
+  font-size: 1em;
+  opacity: 80%;
+}
+.App h3 {
+  font-size: 0.8em;
+  opacity: 50%;
 }
 .sub-heading {
   margin: 0 auto;
-  width: 600px;
+  width: 400px;
 }
 .App footer {
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
   position: fixed;
   left: 0;
